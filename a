@@ -1,7 +1,0 @@
-echo "# 24-25-KeyClub-Website" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/ciciofthe50/24-25-KeyClub-Website.git
-git push -u origin main
