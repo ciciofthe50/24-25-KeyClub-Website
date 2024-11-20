@@ -13,6 +13,7 @@ The final implementation for the website will be the additional websites associa
 Overall, this website will be beneficial to the many of the Key Club members and associates so they can have an easier, streamlined information center for all things Key Club.
 
 #Designing the Solution
+
 In this project, we will be using the Agile development methodology to systematically solve our problem. Sources that our website needs to be designed and function properly include 
 
 * Offical key club website (https://www.keyclub.org/)
