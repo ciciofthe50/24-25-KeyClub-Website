@@ -11,3 +11,11 @@ The accomplishment tabs will work as a web page which will allow members to navi
 The final implementation for the website will be the additional websites associated with Key Club such as the members’ volunteer hours, volunteering sign ups Google forms, Key Club member sign up, and past meeting Google slides. By employing the <a> element is the href attribute to directly link the destination of the hyperlink to the website.
 
 Overall, this website will be beneficial to the many of the Key Club members and associates so they can have an easier, streamlined information center for all things Key Club.
+
+#Designing the Solution
+In this project, we will be using the Agile development methodology to systematically solve our problem. Sources that our website needs to be designed and function properly include 
+
+* Offical key club website (https://www.keyclub.org/)
+* Offical kiwanis website (https://www.kiwanis.org/)
+* Google products (sheets, forms, calendar, etc)
+
