@@ -4,7 +4,7 @@
   padding:0;
   font-family: "myriad-pro";
 }
-
+/*heading*/
 nav {
   height: 80px;
   background: #4daef3;
@@ -45,15 +45,59 @@ nav a {
   justify-content: center;
   align-items: flex-start;
   color: #000;
-  padding: 0rem 2rem;
+  padding: 0rem 15rem;
 }
 
 .column-left h1 {
   margin-bottom: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .column-left p {
   margin-bottom: 2rem;
-  font-size: 3rem;
+  font-size: 1rem;
+}
+/*body*/
+nav2 {
+  
+  /*
+  height: 80px;The height of the box, commented out to make it take the whole screen
+  */
+  
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem calc((100vw - 1300px) / 2);
+}
+
+.leftimg {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0rem;
+}
+
+.center {
+  color: #000;
+  font-size: 1.5rem;
+  padding: 0rem 15rem;
+}
+
+nav3 {
+  
+  background: #4daef3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem calc((100vw - 1300px) / 2);
+}
+
+.center {
+  color: #000;
+  font-size: 2rem;
+  padding: 0rem 25rem;
+  color:#FFFFFF;
+  font-weight: bold;
 }
