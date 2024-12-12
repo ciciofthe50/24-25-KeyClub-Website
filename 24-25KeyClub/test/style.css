@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding:0;
-  font-family: "myriad-pro";
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 /*heading*/
 nav {
@@ -101,3 +101,16 @@ nav3 {
   color:#FFFFFF;
   font-weight: bold;
 }
+
+.lowerremind {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #000;
+  padding: 3rem 23rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
