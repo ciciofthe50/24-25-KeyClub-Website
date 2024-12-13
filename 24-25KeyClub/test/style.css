@@ -28,13 +28,14 @@ nav {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 82%;
+  width: 100%;
 }
 
 nav a {
   text-decoration: none;
   color: #FFFFFF;
   padding: 0 1.5rem;
+  
 }
 
 .hero {
@@ -94,7 +95,7 @@ nav2 {
   padding: 0rem 15rem;
 }
 
-nav3 {
+nav3{
   
   background: #4daef3;
   display: flex;
