@@ -23,10 +23,11 @@ nav {
 }
 
 .imgcenter{
+  background: #4daef3;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 85%;
 }
 
 nav a {
