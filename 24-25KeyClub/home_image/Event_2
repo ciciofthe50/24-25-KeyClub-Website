@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+  <link rel="stylesheet" href="officerpage.css" />
+</head>
+
+<body>
+  <!-- navigation Bar -->
+  <nav>
+    <div class="logo">Seguin KeyClub</div>
+    <div class="nav-items">
+      <a href="https://ciciofthe50.github.io/24-25-KeyClub-Website/24-25KeyClub/home.html">Key Club</a>
+      <a href="https://ciciofthe50.github.io/24-25-KeyClub-Website/24-25KeyClub/calendar.html">Calendar</a>
+      <a href="https://ciciofthe50.github.io/24-25-KeyClub-Website/24-25KeyClub/officerpage.html">Officers</a>
+      <a href="https://ciciofthe50.github.io/24-25-KeyClub-Website/24-25KeyClub/events.html">Events</a>
+      <a href="https://ciciofthe50.github.io/24-25-KeyClub-Website/24-25KeyClub/resource.html" class="right">Resources</a>
+    </div>
+  </nav>
+
+  <!-- body content -->
+  <div class="body2">
+    <div class="textcenter">Laying Wreaths for Veterans at DFW National Cemetry</div>
+    <div class="textcenter">
+    <img src="EventImages/DFWCemetary.png" alt="president">
+    </div>
+    <div class="positiontextcenter">(INFO TO PUT IN)</div>
+    <div class="positiontextcenter">People to have Thanks?</div>
+    
+
+  </div>
+</body>
+
+</html>
+
+      
+
+    
+</html>
