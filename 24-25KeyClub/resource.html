@@ -20,65 +20,158 @@
       </div>
     </nav>
   </body>
-     <!-- FAQ Section -->
-  <div class="faq-container">
-    <div class="faq-item">
-      <button class="faq-question">What is Key Club?</button>
-      <div class="faq-answer">
-        <p>Key Club is a student-led organization that aims to build leadership and service skills while serving the community.</p>
-      </div>
-    </div>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kosugi&display=swap" rel="stylesheet">
 
-    <div class="faq-item">
-      <button class="faq-question">How do I join Key Club?</button>
-      <div class="faq-answer">
-        <p>You can join by filling out the membership form available on our website and attending meetings and events.</p>
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-question">What do I do in Key Club?</button>
-      <div class="faq-answer">
-        <p>As a member, you participate in community service projects, attend meetings, and help organize events.</p>
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-question">Where do I check my hours?</button>
-      <div class="faq-answer">
-        <p>These forms!<br>
+  <!-- form Section -->
+  <div class="form-container">
+    
+    <iframe 
+      src="https://docs.google.com/forms/d/e/1FAIpQLSd2s46sCZ2URltTE9MNmPLIpOin-UaAgO5qydi5bDsn5AdDEw/viewform" 
+      width="40%" 
+      height="800" 
+      frameborder="0" 
+      marginheight="0" 
+      marginwidth="0">Loading…</iframe>
+  </div>
+ 
+<style>
+@font-face {
+font-family: hugh is life;
+src: url(https://dl.dropbox.com/s/bki6gilknxxouuk/HughIsLifePersonalUseItalic-K7axe.ttf);
+}
+ 
+.container {
+  
+ position: absolute;
+   top: 50px; /* Moves it down from the top */
+   right: 50px; /* Moves it to the right of the screen */
+width: 400px;
+height: 400px;
+margin: right;
+z-index: 999;
+/* change the background image and the gradient */
+background-image: linear-gradient(#ffffff50, #4aaaff), url('https://media.discordapp.net/attachments/796408069848170516/1317714125949898762/IMG_6890.jpg?ex=675fb069&is=675e5ee9&hm=7596732afa5c25bde388b930cfa89ec6e47bbf54169c1b7bc55edb291e89da59&=&format=webp&width=893&height=670');
+background-position: center;
+background-size: cover;
+color: #fff;
+overflow: hidden;
+box-shadow: 0px 3px 7px #aaa, inset 13px 0px 6px -10px #fff, inset -13px 0px 6px -10px #fff, inset 0px 13px 6px -9px #ffffff, inset 0px -13px 6px -10px #fff;
+border-radius: 10px;
+}
+ 
+h1 {
+font-family: hugh is life;
+color: #fff;
+font-size: 4em;
+text-align: left;
+animation: glow 1.5s infinite;
+}
+ 
+@keyframes glow { 0% { text-shadow: 0px 0px 15px white; } 50% { text-shadow: 0px 0px 5px white; } 100% { text-shadow: 0px 0px 15px white; }
+}
+ 
+p {
+font-family: kosugi;
+color: #424242;
+font-size: 0.9em;
+text-align: right;
+}
+ 
+p2 {
+font-family: kosugi;
+color: #fff;
+font-size: 0.6em;
+text-align: right;
+font-style: italic;
+font-weight: 900;
+}
+ 
+mark {
+color: #ffffff;
+font-size: 1.2em;
+background: transparent;
+-webkit-filter: drop-shadow(0px 0px 1px #fff);
+}
+ 
+a {
+color: #ffffff;
+-webkit-filter: drop-shadow(0px 0px 1px #fff);
+text-decoration: none;
+}
+ 
+.top-left {
+position: absolute;
+top: 0px;
+left: 8px;
+}
+ 
+.top-right {
+position: absolute;
+top: 4px;
+right: 8px;
+}
+ 
+.content {
+position: absolute;
+top: 60px;
+/* change the opacity of the slide up */
+opacity: .7;
+width: 100%;
+height: 90%;
+/* change the background color of the slide up */
+background-color: #4aaaff;
+padding-right: 10px;
+padding-left: 10px;
+/* make the shadow the same color as the background */
+box-shadow: 0 0 30px 35px #4aaaff;
+-webkit-transform: translateY(80%);
+transform: translateY(80%);
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-transition: opacity 0.2s 0.3s, -webkit-transform 0.4s;
+transition: opacity 0.2s 0.3s, -webkit-transform 0.4s;
+transition: transform 0.4s, opacity 0.2s 0.3s;
+transition: transform 0.4s, opacity 0.2s 0.3s, -webkit-transform 0.4s;
+}
+ 
+.slide-up:hover .content {
+/* change the opacity of the slide up */
+opacity: .8;
+-webkit-transform: translateY(0px);
+transform: translateY(0px);
+-webkit-transition: opacity 0.2s, -webkit-transform 0.4s;
+transition: opacity 0.2s, -webkit-transform 0.4s;
+transition: transform 0.4s, opacity 0.2s;
+transition: transform 0.4s, opacity 0.2s, -webkit-transform 0.4s;
+}
+</style>
+ 
+<div class='container slide-up'>
+<!--- DON'T REMOVE --->
+<div class="top-right">
+<p2>key club resources</p2></div>
+ 
+<div class="top-left"><h1>FAQ</h1></div>
+ 
+<div class='content'>
+<p><mark>What is Keyclub?</mark> info info info info info info info info info info info info info info info </p>
+<br>
+<p><mark>How do I join Keyclub?</mark> info info info info info info info info info info info info info info info </p>
+<br>
+<p><mark>What do I do in Keyclub? </mark> info info info info info info info info info info info info info info info </p>
+<br>
+<p><mark>How do I check my hours?</mark> These forms below! </p>
+<p> <br>
           Freshman: <a href="https://drive.google.com/open?id=1-yBao8UiTk2ZHdNxGanGfDlp3vjPFo6OuXbyZdGRnYE&usp=drive_copy" target="_blank">Freshman Form</a><br>
           Sophomore: <a href="https://drive.google.com/open?id=1TAqgKdU-GVBmE9zKS8Rz9e1Qsl9gXxQhinGS36fGPTk&usp=drive_copy" target="_blank">Sophomore Form</a><br>
           Junior: <a href="https://drive.google.com/open?id=1-pdzWSoQMort77idz4QgL8YcQZklBA_peiossuN6_DE&usp=drive_copy" target="_blank">Junior Form</a><br>
           Senior: <a href="https://drive.google.com/open?id=1lgsLnE2bOxvbLdt7ILlVTf3X_y6uxSuojVj3PO-5cC8&usp=drive_copy" target="_blank">Senior Form</a>
-        </p>
-      </div>
-    </div>
+ 
+  
+  
+</div>
+  
+  
 
-    <div class="faq-item">
-      <button class="faq-question">Should I join Key Club?</button>
-      <div class="faq-answer">
-        <p>Key Club is a great way to meet new people, develop leadership skills, and give back to your community!</p>
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-question">What is OS Gray?</button>
-      <div class="faq-answer">
-        <p>OS Gray is a term used to refer to certain service projects or events that happen within the district.</p>
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-question">Who do I contact if I have a question?</button>
-      <div class="faq-answer">
-        <p>You can contact any of the officers or check out the contact information on the Key Club website.</p>
-      </div>
-    </div>
-  </div>
-
-  <script src="scripts.js"></script>
-
-</body>
-
-</html>
