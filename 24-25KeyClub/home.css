@@ -1,9 +1,9 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding:0;
+  padding: 0;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  color:#FFFFFF;
+  color: #ffffff;
 }
 /*heading*/
 nav {
@@ -16,14 +16,14 @@ nav {
 }
 
 .logo {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
   padding: 0 2rem;
 }
 
-.imgcenter{
+.imgcenter {
   padding: 1rem 0rem;
   background: #4daef3;
   display: block;
@@ -34,9 +34,8 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 0 1.5rem;
-  
 }
 
 .hero {
@@ -57,6 +56,7 @@ nav a {
   align-items: flex-start;
   color: #000;
   padding: 0rem 15rem;
+  
 }
 
 .column-left h1 {
@@ -69,6 +69,8 @@ nav a {
   font-size: 1rem;
 }
 
+
+
 nav2 {
   background: #ffffff;
   display: flex;
@@ -76,6 +78,7 @@ nav2 {
   align-items: center;
   padding: 3rem calc((100vw - 1300px) / 2);
 }
+
 .leftimg {
   color: black;
   font-size: 1.5rem;
@@ -83,11 +86,14 @@ nav2 {
   font-style: italic;
   padding: 0rem;
 }
+
+
 .centertext {
   color: black;
   font-size: 1.5rem;
   padding: 0rem 15rem;
 }
+
 nav3 {
   background: #4daef3;
   display: flex;
@@ -95,6 +101,7 @@ nav3 {
   align-items: center;
   padding: 3rem calc((100vw - 1300px) / 2);
 }
+
 .center {
   font-size: 2rem;
   padding: 0rem 25rem;
@@ -103,6 +110,7 @@ nav3 {
   margin-left: auto;
   margin-right: auto;
 }
+
 .lowersocial {
   display: flex;
   color: #000;
@@ -114,6 +122,7 @@ nav3 {
   align-items: center;
   
 }
+
 .BOLDEDText {
   font-size: 3rem;
   font-weight: Bold;
@@ -126,4 +135,68 @@ nav3 {
   border-radius: 4px;
   border: 4px solid;
   border-image: linear-gradient(45deg, #57a9ff, #ffffff) 1;
+}
+
+/*
+hehe
+*/
+        bodies {
+            margin: 0;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100vh;
+            background-color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 30px;
+            margin-left: 40px;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .item img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 1px solid #ccc;
+        }
+
+        .details {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .details span {
+            color: black;
+            font-size: 18px;
+        }
+
+        .details a {
+            color: blue;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .details a:hover {
+            text-decoration: underline;
+        }
+
+/*
+bottom code used to seperate the afilllins with header
+*/
+ihatemylife {
+}
+.expander {
+  padding: 5rem 5rem;
+  background-color: white;
 }
