@@ -1,9 +1,9 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding:0;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  color: #ffffff;
+  color:#FFFFFF;
 }
 /*heading*/
 nav {
@@ -16,14 +16,14 @@ nav {
 }
 
 .logo {
-  color: #ffffff;
+  color: #FFFFFF;
   font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
   padding: 0 2rem;
 }
 
-.imgcenter {
+.imgcenter{
   padding: 1rem 0rem;
   background: #4daef3;
   display: block;
@@ -34,8 +34,9 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #ffffff;
+  color: #FFFFFF;
   padding: 0 1.5rem;
+  
 }
 
 .hero {
@@ -56,7 +57,6 @@ nav a {
   align-items: flex-start;
   color: #000;
   padding: 0rem 15rem;
-  
 }
 
 .column-left h1 {
@@ -69,134 +69,119 @@ nav a {
   font-size: 1rem;
 }
 
+/*
 
 
-nav2 {
-  background: #ffffff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3rem calc((100vw - 1300px) / 2);
+
+*/
+
+
+@font-face {
+font-family: hugh is life;
+src: url(https://dl.dropbox.com/s/bki6gilknxxouuk/HughIsLifePersonalUseItalic-K7axe.ttf);
 }
-
-.leftimg {
-  color: black;
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-style: italic;
-  padding: 0rem;
-}
-
-
-.centertext {
-  color: black;
-  font-size: 1.5rem;
-  padding: 0rem 15rem;
-}
-
-nav3 {
-  background: #4daef3;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3rem calc((100vw - 1300px) / 2);
-}
-
-.center {
-  font-size: 2rem;
-  padding: 0rem 25rem;
-  color: #ffffff;
-  font-weight: bold;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.lowersocial {
-  display: flex;
-  color: #000;
-  padding: 3rem 23rem;
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-style: italic;
-  margin: 0rem 15rem;
-  align-items: center;
+ 
+.container {
   
+ position: absolute;
+   top: 100px; /* Moves it down from the top */
+   right: 50px; /* Moves it to the right of the screen */
+width: 400px;
+height: 400px;
+margin: right;
+z-index: 999;
+/* change the background image and the gradient */
+background-image: linear-gradient(#ffffff50, #4aaaff), url('https://media.discordapp.net/attachments/796408069848170516/1317714125949898762/IMG_6890.jpg?ex=675fb069&is=675e5ee9&hm=7596732afa5c25bde388b930cfa89ec6e47bbf54169c1b7bc55edb291e89da59&=&format=webp&width=893&height=670');
+background-position: center;
+background-size: cover;
+color: #fff;
+overflow: hidden;
+box-shadow: 0px 3px 7px #aaa, inset 13px 0px 6px -10px #fff, inset -13px 0px 6px -10px #fff, inset 0px 13px 6px -9px #ffffff, inset 0px -13px 6px -10px #fff;
+border-radius: 10px;
 }
-
-.BOLDEDText {
-  font-size: 3rem;
-  font-weight: Bold;
-  color: #000;
-  text-align: center;
+ 
+h1 {
+font-family: hugh is life;
+color: #fff;
+font-size: 4em;
+text-align: left;
+animation: glow 1.5s infinite;
 }
-.keyclub-image {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
-  border: 4px solid;
-  border-image: linear-gradient(45deg, #57a9ff, #ffffff) 1;
+ 
+@keyframes glow { 0% { text-shadow: 0px 0px 15px white; } 50% { text-shadow: 0px 0px 5px white; } 100% { text-shadow: 0px 0px 15px white; }
 }
-
-/*
-hehe
-*/
-        bodies {
-            margin: 0;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            height: 100vh;
-            background-color: #fff;
-            font-family: Arial, sans-serif;
-        }
-
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 30px;
-            margin-left: 40px;
-        }
-
-        .item {
-            display: flex;
-            align-items: center;
-            gap: 25px;
-        }
-
-        .item img {
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border: 1px solid #ffffff;
-        }
-
-        .details {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .details span {
-            color: black;
-            font-size: 18px;
-        }
-
-        .details a {
-            color: blue;
-            text-decoration: none;
-            font-size: 18px;
-        }
-
-        .details a:hover {
-            text-decoration: underline;
-        }
-
-/*
-bottom code used to seperate the afilllins with header
-*/
-ihatemylife {
+ 
+p {
+font-family: kosugi;
+color: #424242;
+font-size: 0.8em;
+text-align: right;
 }
-.expander {
-  padding: 4rem 5rem;
-  background-color: white;
+ 
+p2 {
+font-family: kosugi;
+color: #fff;
+font-size: 0.6em;
+text-align: right;
+font-style: italic;
+font-weight: 900;
+}
+ 
+mark {
+color: #ffffff;
+font-size: 1.2em;
+background: transparent;
+-webkit-filter: drop-shadow(0px 0px 1px #fff);
+}
+ 
+a {
+color: #ffffff;
+-webkit-filter: drop-shadow(0px 0px 1px #fff);
+text-decoration: none;
+}
+ 
+.top-left {
+position: absolute;
+top: 0px;
+left: 8px;
+}
+ 
+.top-right {
+position: absolute;
+top: 4px;
+right: 8px;
+}
+ 
+.content {
+position: absolute;
+top: 60px;
+/* change the opacity of the slide up */
+opacity: .7;
+width: 100%;
+height: 90%;
+/* change the background color of the slide up */
+background-color: #4aaaff;
+padding-right: 10px;
+padding-left: 10px;
+/* make the shadow the same color as the background */
+box-shadow: 0 0 30px 35px #4aaaff;
+-webkit-transform: translateY(80%);
+transform: translateY(80%);
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+-webkit-transition: opacity 0.2s 0.3s, -webkit-transform 0.4s;
+transition: opacity 0.2s 0.3s, -webkit-transform 0.4s;
+transition: transform 0.4s, opacity 0.2s 0.3s;
+transition: transform 0.4s, opacity 0.2s 0.3s, -webkit-transform 0.4s;
+}
+ 
+.slide-up:hover .content {
+/* change the opacity of the slide up */
+opacity: .8;
+-webkit-transform: translateY(0px);
+transform: translateY(0px);
+-webkit-transition: opacity 0.2s, -webkit-transform 0.4s;
+transition: opacity 0.2s, -webkit-transform 0.4s;
+transition: transform 0.4s, opacity 0.2s;
+transition: transform 0.4s, opacity 0.2s, -webkit-transform 0.4s;
 }
