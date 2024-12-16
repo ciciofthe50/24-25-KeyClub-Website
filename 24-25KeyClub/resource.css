@@ -91,7 +91,7 @@ height: 400px;
 margin: right;
 z-index: 999;
 /* change the background image and the gradient */
-background-image: linear-gradient(#ffffff50, #4aaaff), url('https://media.discordapp.net/attachments/796408069848170516/1317714125949898762/IMG_6890.jpg?ex=675fb069&is=675e5ee9&hm=7596732afa5c25bde388b930cfa89ec6e47bbf54169c1b7bc55edb291e89da59&=&format=webp&width=893&height=670');
+background-image: linear-gradient(#ffffff50, #4aaaff), url('ResourceImages/FAQ-BG.png');
 background-position: center;
 background-size: cover;
 color: #fff;
