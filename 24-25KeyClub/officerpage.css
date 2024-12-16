@@ -67,8 +67,17 @@ padding: 3rem calc((100vw - 1300px) / 2);
   width: calc(50% - 1rem);  
 }
 
+.sponserimage {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  gap: 2rem;  
+  padding: 2rem 0;
+}
+
 .sponser {
   text-align: center;
+  width: calc(140% - 1rem);  
 }
 
 .positiontextcenter {
@@ -84,6 +93,14 @@ padding: 3rem calc((100vw - 1300px) / 2);
   height: auto; 
   border-radius: 10px;
   margin-right: 1rem;  
+  margin-bottom: 1rem;  
+}
+
+.sponser img {
+  width: 350px;  
+  height: auto; 
+  border-radius: 10px;
+  margin-right: 0rem;  
   margin-bottom: 1rem;  
 }
 
