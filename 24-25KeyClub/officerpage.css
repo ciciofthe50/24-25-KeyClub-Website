@@ -29,6 +29,17 @@ nav a {
   padding: 0 1.5rem;
 }
 
+.hero {
+background: #4daef3;
+}
+
+.hero-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 95vh;
+padding: 3rem calc((100vw - 1300px) / 2);
+}
+
 .body2 {
   color: #000000;
 }
@@ -54,6 +65,10 @@ nav a {
 .officer {
   text-align: center;
   width: calc(50% - 1rem);  
+}
+
+.sponser {
+  text-align: center;
 }
 
 .positiontextcenter {
