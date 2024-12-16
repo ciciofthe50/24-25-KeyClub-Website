@@ -84,7 +84,7 @@ src: url(https://dl.dropbox.com/s/bki6gilknxxouuk/HughIsLifePersonalUseItalic-K7
 .container {
   
  position: absolute;
-   top: 50px; /* Moves it down from the top */
+   top: 100px; /* Moves it down from the top */
    right: 50px; /* Moves it to the right of the screen */
 width: 400px;
 height: 400px;
