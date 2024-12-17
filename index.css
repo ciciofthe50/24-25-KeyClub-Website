@@ -2,7 +2,10 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+  /*
 font-family: "Comic Sans MS", "Comic Sans", cursive;
+  */
+  font-family: "Myriad Pro", cursive;
 color: #ffffff;
 }
 /*heading*/
