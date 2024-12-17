@@ -119,5 +119,6 @@ padding: 3rem calc((100vw - 1300px) / 2);
   color: #000000;
   font-size: 1rem;
   padding: 0.5rem 0; 
-  margin-right: 0rem;
+  margin-right: 10rem;
+  margin-left: 10rem;
 }
